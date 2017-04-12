@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BXDefaultProgramPath</key>
+	<string>C SWDA.zip Folder.harddisk/SWDA/PLAY.BAT</string>
+	<key>BXGameIdentifier</key>
+	<string>EC212713-5DEE-44DC-9A61-3D6EFFDE5FA0</string>
+	<key>BXGameIdentifierType</key>
+	<integer>1</integer>
+</dict>
+</plist>
