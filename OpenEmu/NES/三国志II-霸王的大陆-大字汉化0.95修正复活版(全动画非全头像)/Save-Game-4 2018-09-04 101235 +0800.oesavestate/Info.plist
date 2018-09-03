@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Core Identifier</key>
+	<string>org.openemu.FCEU</string>
+	<key>Core Version</key>
+	<string>2.2.3</string>
+	<key>Name</key>
+	<string>Save-Game-4 2018-09-04 10:12:35 +0800</string>
+	<key>ROM MD5</key>
+	<string>9a63b2785c4bb4d53dfd231da202426c</string>
+	<key>Timestamp</key>
+	<date>2018-09-04T02:12:36Z</date>
+	<key>Version</key>
+	<string>1.0</string>
+</dict>
+</plist>
