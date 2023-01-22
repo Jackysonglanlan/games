@@ -1,13 +1,13 @@
 #!/bin/bash
 
+# TODO: add linux support
+
 #### 启动 macos 版本的 dosbox-x
 
 shopt -s expand_aliases
 set -euo pipefail
 trap "echo 'error: Script failed: see failed command above'" ERR
 
-# 按需修改: dosbox-x 文件的路径
-DOSBOX_PATH=../dosbox-x/dosbox-x.app/Contents/MacOS/dosbox-x
 ROM_PATH=$HOME/Games/Games/ROMs/DOS/work-dir
 SAVES_DIR=$ROM_PATH/../saves
 
@@ -31,7 +31,25 @@ _GAME_SAVE_FILE_MAP[2]='SWDA/SAVE@.+'
 _GAME_SAVE_FILE_MAP[3]='PAL@RPG$'
 _GAME_SAVE_FILE_MAP[4]='FD2@.SAV$'
 _GAME_SAVE_FILE_MAP[5]='EKD1@ESAVE.+R3S$'
-_GAME_SAVE_FILE_MAP[5]='BOOK1@\.SAV$' # 末日宝典，只能开始新游戏再取档，开始界面直接取档会崩溃
+_GAME_SAVE_FILE_MAP[5]='BOOK1@\.SAV$'
+
+# @return 'mac' or 'linux'
+get_os_name(){
+  [[ $(uname -a) == *Darwin* ]] && echo 'mac' || echo 'linux'
+}
+
+# run dosbox according to OS
+# $1+: dosbox arguments
+_dosbox(){
+  # 默认 mac, 按需修改: dosbox-x 文件的路径
+  local bin='../dosbox-x/dosbox-x.app/Contents/MacOS/dosbox-x'
+
+  if [[ $(get_os_name) == 'linux' ]]; then
+    bin=dosbox-staging
+  fi
+
+  $bin "$@"
+}
 
 _game_dir_name(){
   local entry=$1
@@ -65,7 +83,7 @@ _backup_saves(){
         echo "[in $pure_dir_name] found save file ${file##*/}, saving to $SAVES_DIR"
         cp "$file" "$save_dir"
       fi
-    done <<< "$(find "$ROM_PATH/$pure_dir_name" -depth 1)"
+    done <<< "$(find "$ROM_PATH/$pure_dir_name" -maxdepth 1)"
 
   done
   echo "[done] all saves are copied to saves dir"
@@ -91,7 +109,7 @@ _recover_saves(){
 run_dos(){
   local mount_dir=$1
   local conf=$2
-  "$DOSBOX_PATH" -conf $conf \
+  _dosbox -conf $conf \
     -c "mount c $mount_dir" \
     -c 'c:' \
     ${@:3}
@@ -135,5 +153,6 @@ run_game_with_cdrom(){
 
 # run the game you like
 #
+run_game "$ROM_PATH" 'SANGO3' 'play.bat'
 # run_game "$ROM_PATH" 'BOOK1' 'play.bat'
-run_game "$ROM_PATH" 'pal' 'pal.exe'
+# run_game "$ROM_PATH" 'pal' 'pal.exe'
