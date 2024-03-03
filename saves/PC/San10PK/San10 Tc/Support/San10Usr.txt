@@ -1,0 +1,401 @@
+Sangokushi10 System Check
+
+
+Memory : 2046M
+CPU : Pentium
+GenuineIntel
+INTEL Pentium-III
+MMX available
+SSE available
+SSE2 available
+family 06 model a stepping 4 
+2663.651 MHz 
+
+DisplaySettings
+     640~ 480 256 Color
+     640~ 480 256 Color
+     640~ 480 256 Color
+     640~ 480 256 Color
+     640~ 480 256 Color
+     640~ 480 High Color
+     640~ 480 High Color
+     640~ 480 High Color
+     640~ 480 High Color
+     640~ 480 High Color
+     640~ 480 True Color(32bit)
+     640~ 480 True Color(32bit)
+     640~ 480 True Color(32bit)
+     640~ 480 True Color(32bit)
+     640~ 480 True Color(32bit)
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 256 Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 High Color
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 480 True Color(32bit)
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 256 Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 High Color
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     720~ 576 True Color(32bit)
+     800~ 600 256 Color
+     800~ 600 256 Color
+     800~ 600 256 Color
+     800~ 600 256 Color
+     800~ 600 High Color
+     800~ 600 High Color
+     800~ 600 High Color
+     800~ 600 High Color
+     800~ 600 True Color(32bit)
+     800~ 600 True Color(32bit)
+     800~ 600 True Color(32bit)
+     800~ 600 True Color(32bit)
+    1024~ 768 256 Color
+    1024~ 768 256 Color
+    1024~ 768 256 Color
+    1024~ 768 High Color
+    1024~ 768 High Color
+    1024~ 768 High Color
+    1024~ 768 True Color(32bit)
+    1024~ 768 True Color(32bit)
+    1024~ 768 True Color(32bit)
+    1152~ 864 256 Color
+    1152~ 864 256 Color
+    1152~ 864 256 Color
+    1152~ 864 256 Color
+    1152~ 864 High Color
+    1152~ 864 High Color
+    1152~ 864 High Color
+    1152~ 864 High Color
+    1152~ 864 True Color(32bit)
+    1152~ 864 True Color(32bit)
+    1152~ 864 True Color(32bit)
+    1152~ 864 True Color(32bit)
+    1280~ 720 256 Color
+    1280~ 720 256 Color
+    1280~ 720 256 Color
+    1280~ 720 256 Color
+    1280~ 720 High Color
+    1280~ 720 High Color
+    1280~ 720 High Color
+    1280~ 720 High Color
+    1280~ 720 True Color(32bit)
+    1280~ 720 True Color(32bit)
+    1280~ 720 True Color(32bit)
+    1280~ 720 True Color(32bit)
+    1280~ 768 256 Color
+    1280~ 768 256 Color
+    1280~ 768 256 Color
+    1280~ 768 High Color
+    1280~ 768 High Color
+    1280~ 768 High Color
+    1280~ 768 True Color(32bit)
+    1280~ 768 True Color(32bit)
+    1280~ 768 True Color(32bit)
+    1280~ 800 256 Color
+    1280~ 800 256 Color
+    1280~ 800 256 Color
+    1280~ 800 High Color
+    1280~ 800 High Color
+    1280~ 800 High Color
+    1280~ 800 True Color(32bit)
+    1280~ 800 True Color(32bit)
+    1280~ 800 True Color(32bit)
+    1280~ 960 256 Color
+    1280~ 960 High Color
+    1280~ 960 True Color(32bit)
+    1280~1024 256 Color
+    1280~1024 256 Color
+    1280~1024 High Color
+    1280~1024 High Color
+    1280~1024 True Color(32bit)
+    1280~1024 True Color(32bit)
+    1360~ 768 256 Color
+    1360~ 768 256 Color
+    1360~ 768 256 Color
+    1360~ 768 High Color
+    1360~ 768 High Color
+    1360~ 768 High Color
+    1360~ 768 True Color(32bit)
+    1360~ 768 True Color(32bit)
+    1360~ 768 True Color(32bit)
+    1360~1024 256 Color
+    1360~1024 256 Color
+    1360~1024 256 Color
+    1360~1024 High Color
+    1360~1024 High Color
+    1360~1024 High Color
+    1360~1024 True Color(32bit)
+    1360~1024 True Color(32bit)
+    1360~1024 True Color(32bit)
+    1366~ 768 256 Color
+    1366~ 768 256 Color
+    1366~ 768 256 Color
+    1366~ 768 High Color
+    1366~ 768 High Color
+    1366~ 768 High Color
+    1366~ 768 True Color(32bit)
+    1366~ 768 True Color(32bit)
+    1366~ 768 True Color(32bit)
+    1400~1050 256 Color
+    1400~1050 256 Color
+    1400~1050 256 Color
+    1400~1050 High Color
+    1400~1050 High Color
+    1400~1050 High Color
+    1400~1050 True Color(32bit)
+    1400~1050 True Color(32bit)
+    1400~1050 True Color(32bit)
+    1440~ 900 256 Color
+    1440~ 900 256 Color
+    1440~ 900 256 Color
+    1440~ 900 High Color
+    1440~ 900 High Color
+    1440~ 900 High Color
+    1440~ 900 True Color(32bit)
+    1440~ 900 True Color(32bit)
+    1440~ 900 True Color(32bit)
+    1600~ 900 256 Color
+    1600~ 900 256 Color
+    1600~ 900 256 Color
+    1600~ 900 High Color
+    1600~ 900 High Color
+    1600~ 900 High Color
+    1600~ 900 True Color(32bit)
+    1600~ 900 True Color(32bit)
+    1600~ 900 True Color(32bit)
+    1680~1050 256 Color
+    1680~1050 High Color
+=>  1680~1050 True Color(32bit)
+
+ KERNEL32.DLL : FileVersionInfoSize is Empty.
+ SHELL32.DLL : FileVersionInfoSize is Empty.
+ COMCTL32.DLL : FileVersionInfoSize is Empty.
+ DDRAW.DLL : FileVersionInfoSize is Empty.
+ D3D8.DLL : FileVersionInfoSize is Empty.
+ D3D9.DLL : FileVersionInfoSize is Empty.
+ DSOUND.DLL : FileVersionInfoSize is Empty.
+ KOEILW.DLL : FileVersionInfoSize is Empty.
+ KDVDDSND.DLL : FileVersionInfoSize is Empty.
+
+registry infomation 
+System devices:ACPIF@acpi.inf,%*pnp0c08.devicedesc%;Microsoft ACPI-Compliant System: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @acpi.inf,%msft%;Microsoft
+Non-Plug and Play Drivers:AFDF@%systemroot%\system32\drivers\afd.sys,-1000: :  :Date  Ver 
+Non-Plug and Play Drivers:amdkmdagFamdkmdag: :  :Date  Ver 
+Display adapters:amdkmdapF@oem22.inf,%amd68be.6%;ATI Radeon HD 5700 Series: : Advanced Micro Devices, Inc. :Date 11-9-2011 Ver 8.920.0.0: @oem22.inf,%ati%;Advanced Micro Devices, Inc.
+IDE ATA/ATAPI controllers:atapiF@mshdc.inf,%idechannel.devicedesc%;IDE Í¨µÀ: ATA Channel 0: Microsoft :Date 6-21-2006 Ver 6.1.7601.18231: @mshdc.inf,%ms-drivers%;(±ê×¼ IDE ATA/ATAPI ¿ØÖÆÆ÷)
+IDE ATA/ATAPI controllers:atapiF@mshdc.inf,%idechannel.devicedesc%;IDE Í¨µÀ: ATA Channel 1: Microsoft :Date 6-21-2006 Ver 6.1.7601.18231: @mshdc.inf,%ms-drivers%;(±ê×¼ IDE ATA/ATAPI ¿ØÖÆÆ÷)
+IDE ATA/ATAPI controllers:atapiF@mshdc.inf,%idechannel.devicedesc%;IDE Í¨µÀ: ATA Channel 0: Microsoft :Date 6-21-2006 Ver 6.1.7601.18231: @mshdc.inf,%ms-drivers%;(±ê×¼ IDE ATA/ATAPI ¿ØÖÆÆ÷)
+IDE ATA/ATAPI controllers:atapiF@mshdc.inf,%idechannel.devicedesc%;IDE Í¨µÀ: ATA Channel 1: Microsoft :Date 6-21-2006 Ver 6.1.7601.18231: @mshdc.inf,%ms-drivers%;(±ê×¼ IDE ATA/ATAPI ¿ØÖÆÆ÷)
+IDE ATA/ATAPI controllers:atapiF@mshdc.inf,%idechannel.devicedesc%;IDE Í¨µÀ: ATA Channel 0: Microsoft :Date 6-21-2006 Ver 6.1.7601.18231: @mshdc.inf,%ms-drivers%;(±ê×¼ IDE ATA/ATAPI ¿ØÖÆÆ÷)
+IDE ATA/ATAPI controllers:atapiF@mshdc.inf,%idechannel.devicedesc%;IDE Í¨µÀ: ATA Channel 1: Microsoft :Date 6-21-2006 Ver 6.1.7601.18231: @mshdc.inf,%ms-drivers%;(±ê×¼ IDE ATA/ATAPI ¿ØÖÆÆ÷)
+Non-Plug and Play Drivers:BeepFBeep: :  :Date  Ver 
+Non-Plug and Play Drivers:bowserF@%systemroot%\system32\browser.dll,-102: :  :Date  Ver 
+Non-Plug and Play Drivers:cdfsFCD/DVD File System Reader: :  :Date  Ver 
+DVD/CD-ROM drives:cdromF@cdrom.inf,%gencdrom_devdesc%;CD-ROM Drive: BENQ DVD DD DW1650 ATA Device: Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @cdrom.inf,%genmanufacturer%;(±ê×¼ CD-ROM Çı¶¯Æ÷)
+Non-Plug and Play Drivers:CLFSF@%SystemRoot%\system32\clfs.sys,-100: :  :Date  Ver 
+Non-Plug and Play Drivers:CNGFCNG: :  :Date  Ver 
+Non-Plug and Play Drivers:COMMONFX.SYSFCOMMONFX.SYS: :  :Date  Ver 
+System devices:CompositeBusF@compositebus.inf,%compositebus.devicedesc%;¸´ºÏ×ÜÏßÃ¶¾ÙÆ÷: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @compositebus.inf,%msft%;Microsoft
+Non-Plug and Play Drivers:CSCF@%systemroot%\system32\cscsvc.dll,-202: :  :Date  Ver 
+Non-Plug and Play Drivers:CTAUDFX.SYSFCTAUDFX.SYS: :  :Date  Ver 
+Non-Plug and Play Drivers:CTERFXFX.SYSFCTERFXFX.SYS: :  :Date  Ver 
+Non-Plug and Play Drivers:CTSBLFX.SYSFCTSBLFX.SYS: :  :Date  Ver 
+Non-Plug and Play Drivers:DfsCF@%systemroot%\system32\drivers\dfsc.sys,-101: :  :Date  Ver 
+Non-Plug and Play Drivers:DXGKrnlFLDDM Graphics Subsystem: :  :Date  Ver 
+Non-Plug and Play Drivers:exfatFexFAT File System Driver: :  :Date  Ver 
+Non-Plug and Play Drivers:fastfatFFAT12/16/32 File System Driver: :  :Date  Ver 
+Non-Plug and Play Drivers:FileInfoF@%SystemRoot%\system32\drivers\fileinfo.sys,-100: :  :Date  Ver 
+Non-Plug and Play Drivers:FltMgrF@%SystemRoot%\system32\drivers\fltmgr.sys,-10001: :  :Date  Ver 
+Non-Plug and Play Drivers:Fs_RecFFs_Rec: :  :Date  Ver 
+Non-Plug and Play Drivers:fvevolF@%SystemRoot%\system32\drivers\fvevol.sys,-100: :  :Date  Ver 
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+System devices:HDAudBusF@hdaudbus.inf,%hdaudio.devicedesc%;High Definition Audio ¿ØÖÆÆ÷: : Microsoft :Date 11-19-2010 Ver 6.1.7601.17514: Microsoft
+Human Interface Devices:HidUsbF@oem24.inf,%devicedesc%;Microsoft Ó²¼ş USB Êó±ê: : Microsoft :Date 5-18-2011 Ver 8.20.409.0: @oem24.inf,%microsoft%;Microsoft
+Keyboards:i8042prtF@keyboard.inf,%*pnp0303.devicedesc%;PS/2 ±ê×¼¼üÅÌ: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @keyboard.inf,%std-keyboards%;(±ê×¼¼üÅÌ)
+Processors:intelppmF@cpu.inf,%intelppm.devicedesc%;Intel Processor: Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz: Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @cpu.inf,%intel%;Intel
+Processors:intelppmF@cpu.inf,%intelppm.devicedesc%;Intel Processor: Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz: Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @cpu.inf,%intel%;Intel
+Processors:intelppmF@cpu.inf,%intelppm.devicedesc%;Intel Processor: Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz: Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @cpu.inf,%intel%;Intel
+Processors:intelppmF@cpu.inf,%intelppm.devicedesc%;Intel Processor: Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz: Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @cpu.inf,%intel%;Intel
+Processors:intelppmF@cpu.inf,%intelppm.devicedesc%;Intel Processor: Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz: Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @cpu.inf,%intel%;Intel
+Processors:intelppmF@cpu.inf,%intelppm.devicedesc%;Intel Processor: Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz: Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @cpu.inf,%intel%;Intel
+Processors:intelppmF@cpu.inf,%intelppm.devicedesc%;Intel Processor: Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz: Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @cpu.inf,%intel%;Intel
+Processors:intelppmF@cpu.inf,%intelppm.devicedesc%;Intel Processor: Intel(R) Core(TM) i7 CPU         920  @ 2.67GHz: Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @cpu.inf,%intel%;Intel
+System devices:TermDDF@machine.inf,%rdp_kbd.devicedesc%;Terminal Server Keyboard Driver: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%gendev_mfg%;(±ê×¼ÏµÍ³Éè±¸)
+Keyboards:i8042prtF@keyboard.inf,%*pnp0303.devicedesc%;PS/2 ±ê×¼¼üÅÌ: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @keyboard.inf,%std-keyboards%;(±ê×¼¼üÅÌ)
+Non-Plug and Play Drivers:KSecDDFKSecDD: :  :Date  Ver 
+Non-Plug and Play Drivers:KSecPkgFKSecPkg: :  :Date  Ver 
+Non-Plug and Play Drivers:lltdioFLink-Layer Topology Discovery Mapper I/O Driver: :  :Date  Ver 
+Non-Plug and Play Drivers:luafvF@%systemroot%\system32\drivers\luafv.sys,-100: :  :Date  Ver 
+System devices:TermDDF@machine.inf,%rdp_mou.devicedesc%;Terminal Server Mouse Driver: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%gendev_mfg%;(±ê×¼ÏµÍ³Éè±¸)
+Mice and other pointing devices:mouhidF@oem10.inf,%hid\vid_045e&pid_0095.devicedesc%;Microsoft USB IntelliMouse Explorer 4.0 (IntelliPoint): : Microsoft :Date 5-18-2011 Ver 8.20.409.0: @oem10.inf,%microsoft%;Microsoft
+Mice and other pointing devices:mouhidF@oem10.inf,%hid\vid_045e&pid_0095.devicedesc%;Microsoft USB IntelliMouse Explorer 4.0 (IntelliPoint): : Microsoft :Date 5-18-2011 Ver 8.20.409.0: @oem10.inf,%microsoft%;Microsoft
+Non-Plug and Play Drivers:mountmgrF@%SystemRoot%\system32\drivers\mountmgr.sys,-100: :  :Date  Ver 
+Non-Plug and Play Drivers:MpFilterFMicrosoft Malware Protection Driver: :  :Date  Ver 
+Non-Plug and Play Drivers:mpsdrvF@%SystemRoot%\system32\FirewallAPI.dll,-23092: :  :Date  Ver 
+Non-Plug and Play Drivers:mrxsmbF@%systemroot%\system32\wkssvc.dll,-1002: :  :Date  Ver 
+Non-Plug and Play Drivers:mrxsmb10F@%systemroot%\system32\wkssvc.dll,-1004: :  :Date  Ver 
+Non-Plug and Play Drivers:mrxsmb20F@%systemroot%\system32\wkssvc.dll,-1006: :  :Date  Ver 
+Non-Plug and Play Drivers:MsfsFMsfs: :  :Date  Ver 
+Non-Plug and Play Drivers:msisadrvFmsisadrv: :  :Date  Ver 
+System devices:msisadrvF@machine.inf,%pci\ven_8086&dev_3a16.devicedesc%;Intel(R) ICH10R LPC ½Ó¿Ú¿ØÖÆÆ÷ - 3A16: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%intel_mfg%;Intel
+Non-Plug and Play Drivers:MupF@%systemroot%\system32\drivers\mup.sys,-101: :  :Date  Ver 
+Non-Plug and Play Drivers:NDISF@%SystemRoot%\system32\drivers\ndis.sys,-200: :  :Date  Ver 
+Non-Plug and Play Drivers:NDProxyFNDProxy: :  :Date  Ver 
+Non-Plug and Play Drivers:NetBIOSFNetBIOS Interface: :  :Date  Ver 
+Non-Plug and Play Drivers:NetBTF@%SystemRoot%\system32\drivers\netbt.sys,-2: :  :Date  Ver 
+Non-Plug and Play Drivers:NpfsFNpfs: :  :Date  Ver 
+Non-Plug and Play Drivers:NtfsFNtfs: :  :Date  Ver 
+Non-Plug and Play Drivers:NullFNull: :  :Date  Ver 
+Disk drives:diskF@disk.inf,%disk_devdesc%;´ÅÅÌÇı¶¯Æ÷: ST3320613AS ATA Device: Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @disk.inf,%genmanufacturer%;(±ê×¼´ÅÅÌÇı¶¯Æ÷)
+System devices:pciF@machine.inf,%*pnp0a03.devicedesc%;PCI bus: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%gendev_mfg%;(±ê×¼ÏµÍ³Éè±¸)
+System devices:pciF@machine.inf,%pci\ven_8086&dev_3408.devicedesc%;Intel(R) 5520/5500/X58 I/O ¼¯ÏßÆ÷ PCI Express ¸ù¶Ë¿Ú 1 - 3408: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%intel_mfg%;Intel
+System devices:pciF@machine.inf,%pci\ven_8086&dev_340a.devicedesc%;Intel(R) 5520/5500/X58 I/O ¼¯ÏßÆ÷ PCI Express ¸ù¶Ë¿Ú 3 - 340A: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%intel_mfg%;Intel
+System devices:pciF@machine.inf,%pci\ven_8086&dev_340c.devicedesc%;Intel(R) 5520/X58 I/O ¼¯ÏßÆ÷ PCI Express ¸ù¶Ë¿Ú 5 - 340C: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%intel_mfg%;Intel
+System devices:pciF@machine.inf,%pci\ven_8086&dev_340e.devicedesc%;Intel(R) 5520/5500/X58 I/O ¼¯ÏßÆ÷ PCI Express ¸ù¶Ë¿Ú 7 - 340E: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%intel_mfg%;Intel
+System devices:pciF@machine.inf,%pci\ven_8086&dev_3410.devicedesc%;Intel(R) 5520/5500/X58 I/O ¼¯ÏßÆ÷ PCI Express ¸ù¶Ë¿Ú 9 - 3410: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%intel_mfg%;Intel
+System devices:pciF@machine.inf,%pci\ven_8086&dev_3a40.devicedesc%;Intel(R) ICH10 ÏµÁĞ PCI Express ¸ù¶Ë¿Ú 1 - 3A40: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%intel_mfg%;Intel
+System devices:pciF@machine.inf,%pci\ven_8086&dev_3a42.devicedesc%;Intel(R) ICH10 ÏµÁĞ PCI Express ¸ù¶Ë¿Ú 2 - 3A42: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%intel_mfg%;Intel
+System devices:pciF@machine.inf,%pci\ven_8086&dev_3a48.devicedesc%;Intel(R) ICH10 ÏµÁĞ PCI Express ¸ù¶Ë¿Ú 5 - 3A48: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%intel_mfg%;Intel
+System devices:pciF@machine.inf,%pci\ven_8086&dev_244e.devicedesc%;Intel(R) 82801 PCI Bridge - 244E: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%intel_mfg%;Intel
+IDE ATA/ATAPI controllers:pciideF@mshdc.inf,%pci\cc_0101.devicedesc%;±ê×¼Ë«Í¨µÀ PCI IDE ¿ØÖÆÆ÷: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18231: @mshdc.inf,%ms-drivers%;(±ê×¼ IDE ATA/ATAPI ¿ØÖÆÆ÷)
+IDE ATA/ATAPI controllers:pciideF@mshdc.inf,%pci\cc_0101.devicedesc%;±ê×¼Ë«Í¨µÀ PCI IDE ¿ØÖÆÆ÷: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18231: @mshdc.inf,%ms-drivers%;(±ê×¼ IDE ATA/ATAPI ¿ØÖÆÆ÷)
+IDE ATA/ATAPI controllers:pciideF@mshdc.inf,%pci\cc_0101.devicedesc%;±ê×¼Ë«Í¨µÀ PCI IDE ¿ØÖÆÆ÷: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18231: @mshdc.inf,%ms-drivers%;(±ê×¼ IDE ATA/ATAPI ¿ØÖÆÆ÷)
+Non-Plug and Play Drivers:pcwFPerformance Counters for Windows Driver: :  :Date  Ver 
+Mice and other pointing devices:mouhidF@oem10.inf,%hid\vid_045e&pid_0095.devicedesc%;Microsoft USB IntelliMouse Explorer 4.0 (IntelliPoint): : Microsoft :Date 5-18-2011 Ver 8.20.409.0: @oem10.inf,%microsoft%;Microsoft
+Non-Plug and Play Drivers:PschedF@%SystemRoot%\System32\drivers\pacer.sys,-101: :  :Date  Ver 
+Non-Plug and Play Drivers:rdbssF@%systemroot%\system32\wkssvc.dll,-1000: :  :Date  Ver 
+Non-Plug and Play Drivers:RDPCDDF@%systemroot%\system32\DRIVERS\RDPCDD.sys,-100: :  :Date  Ver 
+Non-Plug and Play Drivers:RDPENCDDF@%systemroot%\system32\drivers\RDPENCDD.sys,-101: :  :Date  Ver 
+Non-Plug and Play Drivers:RDPREFMPF@%systemroot%\system32\drivers\RdpRefMp.sys,-101: :  :Date  Ver 
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Storage Volumes:volsnapF@volume.inf,%storage\volume.devicedesc%;Í¨ÓÃ¾í: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @volume.inf,%msft%;Microsoft
+Non-Plug and Play Drivers:rspndrFLink-Layer Topology Discovery Responder: :  :Date  Ver 
+Network adapters:RTL8167F@oem3.inf,%rtl8168d.devicedesc%;Realtek RTL8168D/8111D Family PCI-E Gigabit Ethernet NIC (NDIS 6.20): Realtek RTL8168D/8111D Family PCI-E Gigabit Ethernet NIC (NDIS 6.20) #2: Microsoft :Date 5-14-2009 Ver 7.2.1127.2008: @oem3.inf,%realtek%;Realtek
+Non-Plug and Play Drivers:srvF@%systemroot%\system32\srvsvc.dll,-102: :  :Date  Ver 
+Non-Plug and Play Drivers:srv2F@%systemroot%\system32\srvsvc.dll,-104: :  :Date  Ver 
+Non-Plug and Play Drivers:srvnetFsrvnet: :  :Date  Ver 
+Non-Plug and Play Drivers:storfltF@%SystemRoot%\system32\vmstorfltres.dll,-1000: :  :Date  Ver 
+Non-Plug and Play Drivers:TcpipF@%SystemRoot%\system32\tcpipcfg.dll,-50003: :  :Date  Ver 
+Non-Plug and Play Drivers:tdxF@%SystemRoot%\system32\tcpipcfg.dll,-50004: :  :Date  Ver 
+Network adapters:tunnelF@nettun.inf,%isatap.displayname%;Microsoft ISATAP Adapter: : Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @nettun.inf,%msft%;Microsoft
+Network adapters:tunnelF@nettun.inf,%teredo.displayname%;Microsoft Teredo Tunneling Adapter: Teredo Tunneling Pseudo-Interface: Microsoft :Date 6-21-2006 Ver 6.1.7600.16385: @nettun.inf,%msft%;Microsoft
+Non-Plug and Play Drivers:udfsFudfs: :  :Date  Ver 
+System devices:umbusF@umbus.inf,%umbusroot.devicedesc%;UMBus Root Bus Enumerator: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @umbus.inf,%ms%;Microsoft
+Universal Serial Bus controllers:usbehciF@usbport.inf,%pci\ven_8086&dev_3a3c.devicedesc%;Intel(R) ICH10 Family USB Enhanced Host Controller - 3A3C: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%intel.mfg%;Intel
+Universal Serial Bus controllers:usbehciF@usbport.inf,%pci\ven_8086&dev_3a3a.devicedesc%;Intel(R) ICH10 Family USB Enhanced Host Controller - 3A3A: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%intel.mfg%;Intel
+Universal Serial Bus controllers:usbhubF@usbport.inf,%usb\root_hub.devicedesc%;USB Root Hub: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%generic.mfg%;(±ê×¼ USB Ö÷¿ØÖÆÆ÷)
+Universal Serial Bus controllers:usbhubF@usbport.inf,%usb\root_hub.devicedesc%;USB Root Hub: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%generic.mfg%;(±ê×¼ USB Ö÷¿ØÖÆÆ÷)
+Universal Serial Bus controllers:usbhubF@usbport.inf,%usb\root_hub.devicedesc%;USB Root Hub: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%generic.mfg%;(±ê×¼ USB Ö÷¿ØÖÆÆ÷)
+Universal Serial Bus controllers:usbhubF@usbport.inf,%usb\root_hub20.devicedesc%;USB Root Hub: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%generic.mfg%;(±ê×¼ USB Ö÷¿ØÖÆÆ÷)
+Universal Serial Bus controllers:usbhubF@usbport.inf,%usb\root_hub.devicedesc%;USB Root Hub: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%generic.mfg%;(±ê×¼ USB Ö÷¿ØÖÆÆ÷)
+Universal Serial Bus controllers:usbhubF@usbport.inf,%usb\root_hub.devicedesc%;USB Root Hub: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%generic.mfg%;(±ê×¼ USB Ö÷¿ØÖÆÆ÷)
+Universal Serial Bus controllers:usbhubF@usbport.inf,%usb\root_hub.devicedesc%;USB Root Hub: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%generic.mfg%;(±ê×¼ USB Ö÷¿ØÖÆÆ÷)
+Universal Serial Bus controllers:usbhubF@usbport.inf,%usb\root_hub20.devicedesc%;USB Root Hub: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%generic.mfg%;(±ê×¼ USB Ö÷¿ØÖÆÆ÷)
+Universal Serial Bus controllers:usbuhciF@usbport.inf,%pci\ven_8086&dev_3a37.devicedesc%;Intel(R) ICH10 Family USB Universal Host Controller - 3A37: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%intel.mfg%;Intel
+Universal Serial Bus controllers:usbuhciF@usbport.inf,%pci\ven_8086&dev_3a38.devicedesc%;Intel(R) ICH10 Family USB Universal Host Controller - 3A38: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%intel.mfg%;Intel
+Universal Serial Bus controllers:usbuhciF@usbport.inf,%pci\ven_8086&dev_3a39.devicedesc%;Intel(R) ICH10 Family USB Universal Host Controller - 3A39: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%intel.mfg%;Intel
+Universal Serial Bus controllers:usbuhciF@usbport.inf,%pci\ven_8086&dev_3a34.devicedesc%;Intel(R) ICH10 Family USB Universal Host Controller - 3A34: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%intel.mfg%;Intel
+Universal Serial Bus controllers:usbuhciF@usbport.inf,%pci\ven_8086&dev_3a35.devicedesc%;Intel(R) ICH10 Family USB Universal Host Controller - 3A35: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%intel.mfg%;Intel
+Universal Serial Bus controllers:usbuhciF@usbport.inf,%pci\ven_8086&dev_3a36.devicedesc%;Intel(R) ICH10 Family USB Universal Host Controller - 3A36: : Microsoft :Date 6-21-2006 Ver 6.1.7601.18328: @usbport.inf,%intel.mfg%;Intel
+System devices:vdrvrootF@machine.inf,%vdrvroot.devicedesc%;Microsoft ĞéÄâÇı¶¯Æ÷Ã¶¾ÙÆ÷Çı¶¯³ÌĞò: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%gendev_mfg%;(±ê×¼ÏµÍ³Éè±¸)
+Non-Plug and Play Drivers:VgaSaveFVgaSave: :  :Date  Ver 
+Non-Plug and Play Drivers:vmbusF@%SystemRoot%\system32\vmbusres.dll,-1000: :  :Date  Ver 
+System devices:volmgrF@machine.inf,%volmgr.devicedesc%;Volume Manager: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @machine.inf,%gendev_mfg%;(±ê×¼ÏµÍ³Éè±¸)
+Non-Plug and Play Drivers:volmgrxF@%SystemRoot%\system32\drivers\volmgrx.sys,-100: :  :Date  Ver 
+Non-Plug and Play Drivers:Wdf01000FKernel Mode Driver Frameworks service: :  :Date  Ver 
+Non-Plug and Play Drivers:WfpLwfFWFP Lightweight Filter: :  :Date  Ver 
+System devices:WmiAcpiF@acpi.inf,%*pnp0c14.devicedesc%;Microsoft Windows Management Interface for ACPI: : Microsoft :Date 6-21-2006 Ver 6.1.7601.17514: @acpi.inf,%msft%;Microsoft
+Non-Plug and Play Drivers:WudfPfFUser Mode Driver Frameworks Platform Driver: :  :Date  Ver 
+°T®§Åã¥ÜF´¶³q(1)
+°T®§Åã¥ÜF´¶³q(10)
+³ø§iF¸Ô²Ó(0)
+¾Ô°«¦æ°Ê¶¶§ÇF¢İ¢Ü(1)
+BgmSysEnableF¢İ¢Ü(1)
+SeSysEnableF¢İ¢Ü(1)
+MovieSysEnableF¢İ¢Ü(1)
+¢Ğ¢Õ¢ÛF¢İ¢Ü(1)
+­µ®ÄF¢İ¢Ü(1)
+MovieF¢İ¢Ü(1)
+¢Ğ¢Õ¢Û­µ¶qF100(100)
+­µ®Ä­µ¶qF74(74)
+¹CÀ¸±Ğ¾ÇF¢İ¢Ô¢Ô(0)
+Window ModeFFullScreen(2)
+İ¢Ü(1)
+¢Ğ¢Õ¢ÛF¢İ¢Ü(1)
+­µ®ÄF¢İ¢Ü(1)
+MovieF¢İ¢Ü(1)
+¢Ğ¢Õ¢Û­µ¶qF80(80)
+­µ®Ä­µ¶qF100(100)
+¹CÀ¸±Ğ¾ÇF¢İ¢Ü(1)
+Window ModeFFullScreen(2)
