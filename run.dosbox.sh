@@ -8,8 +8,8 @@ shopt -s expand_aliases
 set -euo pipefail
 trap "echo 'error: Script failed: see failed command above'" ERR
 
-ROM_PATH=$HOME/Games/Games/ROMs/DOS/work-dir
-SAVES_DIR=$ROM_PATH/../saves
+ROM_PATH=$HOME/dev/workspace/my/games/ROMs/DOS/work-dir
+SAVES_DIR=saves/DOS
 
 ### WARNING
 #
@@ -34,15 +34,15 @@ _GAME_SAVE_FILE_MAP[5]='EKD1@ESAVE.+R3S$'
 _GAME_SAVE_FILE_MAP[5]='BOOK1@\.SAV$'
 
 # @return 'mac' or 'linux'
-get_os_name(){
+get_os_name() {
   [[ $(uname -a) == *Darwin* ]] && echo 'mac' || echo 'linux'
 }
 
 # run dosbox according to OS
 # $1+: dosbox arguments
-_dosbox(){
+_dosbox() {
   # 默认 mac, 按需修改: dosbox-x 文件的路径
-  local bin='../dosbox-x/dosbox-x.app/Contents/MacOS/dosbox-x'
+  local bin="$HOME/Games/dosbox-x/dosbox-x.app/Contents/MacOS/dosbox-x"
 
   if [[ $(get_os_name) == 'linux' ]]; then
     bin=dosbox-staging
@@ -51,19 +51,19 @@ _dosbox(){
   $bin "$@"
 }
 
-_game_dir_name(){
+_game_dir_name() {
   local entry=$1
   echo "${entry%%@*}"
 }
 
-_save_file_regex(){
+_save_file_regex() {
   local entry=$1
   echo "${entry#*@}"
 }
 
 # 拷贝游戏存档文件到 saves 文件夹
 # $1: game dir name
-_backup_saves(){
+_backup_saves() {
   local game_dir_name=$1
   for entry in "${_GAME_SAVE_FILE_MAP[@]}" ; do
     local pure_dir_name=${entry%%@*}
@@ -91,7 +91,7 @@ _backup_saves(){
 
 # 恢复存档文件到游戏目录
 # $1: game dir name
-_recover_saves(){
+_recover_saves() {
   local game_dir_name=$1
   local from_dir="$SAVES_DIR/$game_dir_name"
   local to_dir="$ROM_PATH/$game_dir_name"
@@ -106,7 +106,7 @@ _recover_saves(){
 # $1: dir to mount
 # $2: dos-box conf file in dir
 # $3+: dos command to run
-run_dos(){
+run_dos() {
   local mount_dir=$1
   local conf=$2
   _dosbox -conf $conf \
@@ -118,7 +118,7 @@ run_dos(){
 # $1: ROM dir
 # $2: game dir in ROM dir
 # $3: game start file
-run_game(){
+run_game() {
   local rom_dir=$1
   local game_dir=$(echo "$2" | tr '[:lower:]' '[:upper:]') # DOS 游戏目录都是大写
   local start_file=$3
@@ -134,7 +134,7 @@ run_game(){
 # $2: game dir in ROM dir
 # $3: cdrom cue file
 # $4: start file
-run_game_with_cdrom(){
+run_game_with_cdrom() {
   local rom_dir=$1
   local game_dir=$2
   local cdrom_file=$3
@@ -153,6 +153,9 @@ run_game_with_cdrom(){
 
 # run the game you like
 #
-run_game "$ROM_PATH" 'SANGO3' 'play.bat'
+# run_game "$ROM_PATH" 'SANGO3' 'play.bat'
 # run_game "$ROM_PATH" 'BOOK1' 'play.bat'
 # run_game "$ROM_PATH" 'pal' 'pal.exe'
+
+# 工人物语 II，进入游戏后选择 main -> capture mouse 才能激活鼠标
+run_game "$ROM_PATH" 'settler2gold' 'PLAY.BAT'

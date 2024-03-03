@@ -2,7 +2,7 @@
 
 ## Dos
 
-TODO: move Dos saves to saves dir
+都是 `dosbox` 的游戏文件夹，可以在 macOS/linux 下使用，详情见 [run.dosbox.sh](../run.dosbox.sh)。
 
 ## Windows
 
@@ -14,3 +14,9 @@ TODO: move Dos saves to saves dir
 | 地下城守护者      | DK II               | put all to `$install_dir\Data`                                                          |
 | Tome 5            | 古墓丽影 5          | put all to `$install_dir`                                                               |
 | DK4               | 大航海时代 4 加强版 | put all to `$install_dir`                                                               |
+
+## NES-FC
+
+| game CH name | game dir            | how to                      |
+| ------------ | ------------------- | --------------------------- |
+| SanII        | 三国志II-霸王的大陆 | copy to `fceux` related dir |
