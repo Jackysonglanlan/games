@@ -18,8 +18,8 @@ SAVES_DIR=saves/DOS
 # 1. 把游戏 ROM 目录 copy 到 ROMs/DOS/work-dir
 # 2. 执行 run_game/run_game_with_cdrom 启动游戏
 #
-# 执行方法前，会自动 copy 存档文件到执行游戏的目录
-# 退出 dosbox 后，_backup_saves 会把游戏存档文件 copy 到 ROMs/DOS/saves
+# 执行方法前，会自动从 SAVES_DIR 对应的游戏目录 copy 存档文件到执行游戏的目录，实现自动恢复存档
+# 退出 dosbox 后，_backup_saves 会把游戏存档文件 copy 回 SAVES_DIR，实现自动备份
 
 # 按需修改
 # game_dir_name@save_file_regex
@@ -153,9 +153,9 @@ run_game_with_cdrom() {
 
 # run the game you like
 #
+run_game "$ROM_PATH" 'SWDA' 'play.bat'
 # run_game "$ROM_PATH" 'SANGO3' 'play.bat'
-# run_game "$ROM_PATH" 'BOOK1' 'play.bat'
 # run_game "$ROM_PATH" 'pal' 'pal.exe'
 
 # 工人物语 II，进入游戏后选择 main -> capture mouse 才能激活鼠标
-run_game "$ROM_PATH" 'settler2gold' 'PLAY.BAT'
+# run_game "$ROM_PATH" 'settler2gold' 'PLAY.BAT'

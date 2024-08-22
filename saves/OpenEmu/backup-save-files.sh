@@ -15,9 +15,14 @@ trap "echo 'error: Script failed: see failed command above'" ERR
 # WARNING: 按需修改
 _OPENEMU_SAVE_DIR="$HOME/Library/Application Support/OpenEmu/Save States"
 
-link_OpenEmu_save_dir() {
-  ln -sf $PWD $_OPENEMU_SAVE_DIR
+backup_OpenEmu_save_files() {
+  # ln -sf $PWD $_OPENEMU_SAVE_DIR
+  while read -r save; do
+    local relative_copy_path="${save##*Save States}"
+    local target_path="$PWD/$relative_copy_path"
+    mkdir -p "$target_path" && cp -rf "$save" "$target_path"
+    printf "[backup] file $save \n-> $target_path\n"
+  done <<< "$(find "$_OPENEMU_SAVE_DIR" \( -name "Auto Save State.oesavestate" \) )"
 }
 
-
-$@
+backup_OpenEmu_save_files

@@ -5,13 +5,13 @@
 	<key>Core Identifier</key>
 	<string>org.openemu.FCEU</string>
 	<key>Core Version</key>
-	<string>2.2.3</string>
+	<string>2.6.6</string>
 	<key>Name</key>
-	<string>OESpecialState_quick</string>
+	<string>OESpecialState_auto</string>
 	<key>ROM MD5</key>
 	<string>9a63b2785c4bb4d53dfd231da202426c</string>
 	<key>Timestamp</key>
-	<date>2021-02-04T10:35:34Z</date>
+	<date>2024-08-22T09:39:47Z</date>
 	<key>Version</key>
 	<string>1.0</string>
 </dict>

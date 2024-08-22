@@ -18,10 +18,12 @@
 
 ## NES-FC
 
-| game CH name | game dir            | how to                      |
-| ------------ | ------------------- | --------------------------- |
-| SanII        | 三国志II-霸王的大陆 | copy to `fceux` related dir |
+| game CH name | game dir            | how to                                                  |
+| ------------ | ------------------- | ------------------------------------------------------- |
+| SanII        | 三国志II-霸王的大陆 | copy to `fceux` related dir or load it in the simulator |
 
 ## OpenEmu
 
-执行 `OpenEmu/link-open-emu.sh` 链接到 OpenEmu 安装目录即可。
+1. 在 OpenEmu 中导入和游戏目录名称相同的 ROM
+2. 从 `saves/OpenEmu` 找到对应的存档文件，拖入 OpenEmu，即可继续游戏
+3. 完成游戏后，执行 `saves/OpenEmu/backup-save-files.sh` 备份存档文件到 `saves/OpenEmu`，进而可以保存到 git
