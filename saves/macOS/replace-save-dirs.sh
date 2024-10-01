@@ -41,6 +41,10 @@ use_red_green_echo "${BASH_SOURCE##*/}"
 
 TARGET_LINK_DIR="$HOME/Documents/My Games"
 
+realpath() {
+  [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
+}
+
 SOURCE_DIR="$(realpath $(dirname $0))"
 
 ##### private #####
@@ -84,11 +88,18 @@ link_save_dirs() {
 
     if [[ -h $target ]]; then
       yellow "[already exist] dir is an symlink: $target"
+      yellow "pass..."
+      continue
+    fi
+
+    if [[ -e $target ]]; then
+      yellow "[already exist] $target"
+      yellow "pass..."
       continue
     fi
 
     yellow "[link] to target: $TARGET_LINK_DIR/$relative"
-    ln -sf "$src" "$TARGET_LINK_DIR/$relative"
+    ln -sf "$src" "$TARGET_LINK_DIR/$relative" || echo 'something wrong...continue...'
   done
 
   green "[done]"
