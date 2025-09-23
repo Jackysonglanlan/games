@@ -24,15 +24,15 @@ trap "echo 'error: Script failed: see failed command above'" ERR
 use_red_green_echo() {
   prefix="$1"
   red() {
-    printf "$(tput bold)$(tput setaf 1)[$prefix] $*$(tput sgr0)\n";
+    printf "$(tput bold)$(tput setaf 1)[%s] $*$(tput sgr0)\n" "$prefix";
   }
 
   green() {
-    printf "$(tput bold)$(tput setaf 2)[$prefix] $*$(tput sgr0)\n";
+    printf "$(tput bold)$(tput setaf 2)[%s] $*$(tput sgr0)\n" "$prefix";
   }
 
   yellow() {
-    printf "$(tput bold)$(tput setaf 178)[$prefix] $*$(tput sgr0)\n";
+    printf "$(tput bold)$(tput setaf 178)[%s] $*$(tput sgr0)\n" "$prefix";
   }
 }
 use_red_green_echo "${BASH_SOURCE##*/}"
@@ -85,6 +85,12 @@ link_save_dirs() {
     relative=${src##"$SOURCE_DIR/"}
     target="$TARGET_LINK_DIR/$relative"
     # echo $target
+
+    # Settlers II: 在 macOS 15.7 中，窗口模式失效，所幸 S2/users/default01.cfg 中配置的是窗口模式，所以可以使用
+    #              但是其直接把用户数据目录放在了 Documents/S2 目录下，所以需要把 target 改成 Documents
+    if [[ $relative =~ S2/.* ]]; then
+      target="$TARGET_LINK_DIR/../$relative"
+    fi
 
     if [[ -h $target ]]; then
       yellow "[already exist] dir is an symlink: $target"

@@ -6,7 +6,7 @@
 
 ## Windows
 
-| game name         | game dir              | how to (注意路径为 windows 路径)                                                        |
+| game name         | game dir              | how to (注意路径为 windows 下的路径，`$install_dir` 为游戏在 windows 中的安装目录)      |
 | ----------------- | --------------------- | --------------------------------------------------------------------------------------- |
 | 暗黑破坏神 2      | Diable II             | put all to `$install_dir`                                                               |
 | 最终幻想 8 重置版 | FF8 Remastered        | put all to `Documents\My Games\FINAL FANTASY VIII Remastered\Steam\_id_\game_data\user` |
@@ -20,7 +20,7 @@
 
 macos 的游戏大部分为 [wine](https://gitlab.winehq.org/wine/wine/-/wikis/home) 包装的 windows 游戏，为了把 macos 上的游戏都归纳到一个目录，以实现自动化备份/同步，需要调整 `wine` 的磁盘映射。
 
-大部分游戏存盘文件一般都在 windows 下的 `My Documents\My Games` 目录，但有些老游戏不是，这时就需要修改其 `wine` 映射(见下面第 2 步)。
+大部分游戏存盘文件一般都在 windows 下的 `My Documents\My Games` 目录，但有些老游戏不是，这时就需要修改其 `wine` 映射(见下面第 1/2 步)。
 
 有些游戏会自动创建，不需要指定。
 
@@ -28,7 +28,9 @@ macos 的游戏大部分为 [wine](https://gitlab.winehq.org/wine/wine/-/wikis/h
 
 ```
 1. Show Package Contents -> Info.plist
-2. 找到 <key>Symlink My Documents</key>，把它对应的 <string></string> 值修改为 $HOME/Documents/My Games
+  1.1. 找到 <key>Symlink My Documents</key>，把它对应的 <string></string> 值修改为 $HOME/Documents/My Games
+2. Show Package Contents -> user.reg
+  2.1. 找到所有 "Documents"，修改为 Documents\\My Games
 3. 游玩游戏并存档，退出，在 $HOME/Documents/My Games 找到该游戏的存档目录，以 My Games 为 root，计算该目录相对路径
 4. 在 saves/macOS 下，创建一个相对结构一样的目录，或者直接把该存档目录 copy 到 saves/macOS 下
 ```
@@ -39,8 +41,8 @@ macos 的游戏大部分为 [wine](https://gitlab.winehq.org/wine/wine/-/wikis/h
 
 | game name | game dir                  | 备注                                                                                                                                                               |
 | --------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| S2        | 工人物语 II 10 周年纪念版 | NA                                                                                                                                                                 |
-| Skyrim    | 上古卷轴5                 | NA                                                                                                                                                                 |
+| S2        | 工人物语 II 10 周年纪念版 | link 后，直接在 `SkyrimAE` bottle 中使用 `Run Command` 直接执行 S2 安装目录下的 `bin/S2DNG.exe`                                                                    |
+| SkyrimAE  | 上古卷轴5                 | NA                                                                                                                                                                 |
 | Diablo II | 暗黑 II 资料片            | 需要在 `暗黑2：毁灭之王1.14D.app/Contents/Resources/user.reg` 中修改所有 `"Saved Games"` 路径为 `"My Documents"`，才能把存档文件存到 `$HOME/Documents/My Games` 下 |
 
 ## NES-FC
