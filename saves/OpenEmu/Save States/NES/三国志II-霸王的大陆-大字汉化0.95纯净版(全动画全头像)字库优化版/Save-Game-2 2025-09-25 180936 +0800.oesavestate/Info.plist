@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Core Identifier</key>
+	<string>org.openemu.Nestopia</string>
+	<key>Core Version</key>
+	<string>1.52</string>
+	<key>Name</key>
+	<string>Save-Game-2 2025-09-25 18:09:36 +0800</string>
+	<key>ROM MD5</key>
+	<string>230de2eff978d21ae9f1b3b71cc057ed</string>
+	<key>Timestamp</key>
+	<date>2025-09-25T10:09:41Z</date>
+	<key>Version</key>
+	<string>1.0</string>
+</dict>
+</plist>

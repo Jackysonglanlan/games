@@ -12,17 +12,21 @@ set -euo pipefail       # e: 有错误及时退出 u: 使用未设置的变量�
 # set -f                # 禁止扩展 '*' 号(要恢复使用 +f)
 trap "echo 'error: Script failed: see failed command above'" ERR
 
+#exit_hook(){
+#  echo "exit_hook"
+#}
+#trap exit_hook EXIT
+
+BASH_DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$BASH_DIR" ]]; then BASH_DIR="$PWD"; fi
+
 # WARNING: 按需修改
 _OPENEMU_SAVE_DIR="$HOME/Library/Application Support/OpenEmu/Save States"
 
+# TODO: test this
 backup_OpenEmu_save_files() {
-  # ln -sf $PWD $_OPENEMU_SAVE_DIR
-  while read -r save; do
-    local relative_copy_path="${save##*Save States}"
-    local target_path="$PWD/$relative_copy_path"
-    mkdir -p "$target_path" && cp -rf "$save" "$target_path"
-    printf "[backup] file $save \n-> $target_path\n"
-  done <<< "$(find "$_OPENEMU_SAVE_DIR" \( -name "Auto Save State.oesavestate" \) )"
+  rm -rf "$BASH_DIR/Save States"
+  cp -r "$_OPENEMU_SAVE_DIR" "$BASH_DIR"
 }
 
 backup_OpenEmu_save_files
