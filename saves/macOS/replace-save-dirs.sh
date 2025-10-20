@@ -19,27 +19,13 @@ trap "echo 'error: Script failed: see failed command above'" ERR
 #}
 #trap exit_hook EXIT
 
+. "$DEVOPS_ROOT/scripts/libs/m-formatter.sh"
+use_red_green_echo "$(basename "$0")"
+
 ##### utils #####
 
-use_red_green_echo() {
-  prefix="$1"
-  red() {
-    printf "$(tput bold)$(tput setaf 1)[%s] $*$(tput sgr0)\n" "$prefix";
-  }
-
-  green() {
-    printf "$(tput bold)$(tput setaf 2)[%s] $*$(tput sgr0)\n" "$prefix";
-  }
-
-  yellow() {
-    printf "$(tput bold)$(tput setaf 178)[%s] $*$(tput sgr0)\n" "$prefix";
-  }
-}
-use_red_green_echo "${BASH_SOURCE##*/}"
 
 ##### global #####
-
-TARGET_LINK_DIR="$HOME/Documents/My Games"
 
 realpath() {
   [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
@@ -55,6 +41,8 @@ SOURCE_DIR="$(realpath $(dirname $0))"
 
 # 把 macOS 目录下的存档文件目录 link 到对应的游戏目录，实现存档文件的 备份/恢复/同步
 link_save_dirs() {
+  local target_link_dir="$HOME/Documents/My Games"
+
   longest_pathes=()
   while read -r game_dir; do
     echo "$game_dir"
@@ -83,13 +71,13 @@ link_save_dirs() {
 
   for src in "${longest_pathes[@]}"; do
     relative=${src##"$SOURCE_DIR/"}
-    target="$TARGET_LINK_DIR/$relative"
+    target="$target_link_dir/$relative"
     # echo $target
 
     # Settlers II: 在 macOS 15.7 中，窗口模式失效，所幸 S2/users/default01.cfg 中配置的是窗口模式，所以可以使用
     #              但是其直接把用户数据目录放在了 Documents/S2 目录下，所以需要把 target 改成 Documents
     if [[ $relative =~ S2/.* ]]; then
-      target="$TARGET_LINK_DIR/../$relative"
+      target="$target_link_dir/../$relative"
     fi
 
     if [[ -h $target ]]; then
@@ -104,11 +92,30 @@ link_save_dirs() {
       continue
     fi
 
-    yellow "[link] to target: $TARGET_LINK_DIR/$relative"
-    ln -sf "$src" "$TARGET_LINK_DIR/$relative" || echo 'something wrong...continue...'
+    yellow "[link] to target: $target_link_dir/$relative"
+    ln -sf "$src" "$target_link_dir/$relative" || echo 'something wrong...continue...'
   done
 
   green "[done]"
 }
 
-link_save_dirs
+# Red Dead Redemption 2 的存档位置比较特殊，相对于 bottle 目录: `drive_c/users/crossover/AppData/Roaming/Goldberg SocialClub Emu Saves/RDR2/$id`
+# 执行后会把 id_dir 下的存档文件链接到给定的目录
+#
+# $1: bottle_name
+# $2: id_str, like '0F74F4C4'
+link_RDR2() {
+  local bottle_name=${1:?\$1 missing: bottle_name}
+  local id_str=${2:?\$2 missing: id_str}
+
+  local src_save_dir="$SOURCE_DIR/Red Dead Redemption 2/id_dir"
+  local target_link_dir="$HOME/Library/Application Support/CrossOver/Bottles/$bottle_name/drive_c/users/crossover/AppData/Roaming/Goldberg SocialClub Emu Saves/RDR2/$id_str"
+
+  yellow "[backup] $(R $target_link_dir) to $(R ${target_link_dir}-bak)"
+  mv "$target_link_dir" "${target_link_dir}-bak" || echo "skip..." # 没有存档目录，无所谓
+
+  yellow "[link] $(R $src_save_dir) to $(R $target_link_dir)"
+  ln -sf "$src_save_dir" "$target_link_dir"
+}
+
+$@
