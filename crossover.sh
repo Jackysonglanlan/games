@@ -58,6 +58,7 @@ link_games_to_bottle() {
   yellow "link game $(R $full_game_path) to $(R $bottle_dir)"
   local base_game_path=${game_path##*/}
   ln -s "$full_game_path" "$bottle_dir/$base_game_path"
+  green "[done]"
 }
 
 $@

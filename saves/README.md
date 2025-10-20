@@ -37,13 +37,7 @@ macos 的游戏大部分为 [wine](https://gitlab.winehq.org/wine/wine/-/wikis/h
 
 当完成上述映射后，执行 `replace-save-dirs.sh` 完成存盘文件目录的 link，即可实现存档文件的 备份/恢复/同步。
 
-现已保存的游戏:
-
-| game name | game dir                  | 备注                                                                                                                                                               |
-| --------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| S2        | 工人物语 II 10 周年纪念版 | link 后，直接在 `SkyrimAE` bottle 中使用 `Run Command` 直接执行 S2 安装目录下的 `bin/S2DNG.exe`                                                                    |
-| SkyrimAE  | 上古卷轴5                 | NA                                                                                                                                                                 |
-| Diablo II | 暗黑 II 资料片            | 需要在 `暗黑2：毁灭之王1.14D.app/Contents/Resources/user.reg` 中修改所有 `"Saved Games"` 路径为 `"My Documents"`，才能把存档文件存到 `$HOME/Documents/My Games` 下 |
+游戏如何运行见 README.md `CrossOver + Games matrix`。
 
 ## NES-FC
 
